@@ -1,0 +1,14 @@
+{
+  "name": "my-worker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "wrangler": "3.23.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "jest"
+  }
+}
